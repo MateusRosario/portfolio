@@ -1,3 +1,3 @@
 # My Portfolio
 
-Portifolio project, made using React JS.
+Portfolio project, made using React JS.
