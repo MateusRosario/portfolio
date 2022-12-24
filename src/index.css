@@ -1,0 +1,15 @@
+/* Colors - Main Theme */
+:root{
+    --pri-d: #0A2647; /* Primary Color Darker */
+    --pri: #144272;   /* Primary Color */
+    --pri-l: #205295; /* Primary Color Lighter */
+    --sec: #FFFFFF;   /* Secondary Color */
+    --acc: #E4C41F;   /* Accent Color Lighter */
+}
+
+body, html {
+    font-family: 'League Spartan', ubuntu, sans-serif;
+    background-color: var(--pri);
+    color: var(--sec);
+    margin: 0px;
+}
