@@ -1,37 +1,23 @@
-import { useRef, useState, useEffect } from 'react'
 import profile from '../../../assets/profile-img.jpg'
+import SectionTitle from '../../ui/SectionTitle'
+import './About.css'
 
-const useIsVisible = (ref) => {
-    const [isIntersecting, setIntersecting] = useState(false);
-  
-    useEffect(() => {
-      const observer = new IntersectionObserver(([entry]) =>
-        setIntersecting(entry.isIntersecting)
-      );
-  
-      observer.observe(ref.current);
-      return () => {
-        observer.disconnect();
-      };
-    }, [ref]);
-  
-    return isIntersecting;
-}
-
-const About = () => {
-    const ref = useRef();
-    //let isVisible = useIsVisible(ref.current);
-
-    // if(isVisible){
-    //     console.log(true);
-    // }
-    // return (
-    //     <div ref={ref} style={{height: '100vh'}}>
-    //         <img className='profile-image' src={profile} alt="Profile"/>
-    //     </div>
-    // )
-
-    return (<div></div>)
+const About = (props) => {
+    return (
+        <div className='box'>
+            <div className='title-box'>
+              <SectionTitle>{props.appData.getString('about-me')}</SectionTitle>
+            </div>
+            <div className='content'>
+              <div className='image-box'>
+                <img className='about-image' src={profile} alt="Profile"/>
+              </div>
+              <div className='desc-box'>
+                <p>I am Mateus da Silva Rosario, a Computer Science student</p>
+              </div>
+            </div>
+        </div>
+    )
 }
 
 export default About

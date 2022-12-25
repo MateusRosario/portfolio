@@ -1,0 +1,14 @@
+.sec-title{
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+
+.sec-title-divider{
+    background-color: var(--acc);
+    border-color: var(--acc);
+    border-radius: 2px;
+    height: 4px;
+    width: 70%;
+    margin-top: 0;
+    margin-left: -2px;
+}
