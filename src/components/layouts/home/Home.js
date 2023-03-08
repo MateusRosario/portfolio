@@ -4,8 +4,8 @@ import profile from '../../../assets/profile-img.jpg'
 
 const Home = (props) => {
     return (
-        <div className="home">
-            <Header appData={props.appData} className="header"/>
+        <div id='home' className="home">
+            {/* <Header appData={props.appData} className="header"/> */}
             <div className="content">
                 <div>
                     <h1 className='text-title'>{props.appData.getString('title')}</h1>
@@ -14,7 +14,7 @@ const Home = (props) => {
             </div>
             <div className="bottom">
                     <img className="profile-image" src={profile} alt="Profile"/>
-                    <h2 className='text-profile'>{props.appData.getString('profile')}</h2>
+                    <h3 className='text-profile'>{props.appData.getString('profile')}</h3>
             </div>
         </div>
     )

@@ -1,65 +1,35 @@
-import React, { Component } from 'react'
+import React, { useState, useEffect } from 'react'
 import Home from './components/layouts/home/Home'
 import About from './components/layouts/about/About'
+import Portfolio from './components/layouts/portfolio/Portfolio';
+// import Curriculum from './components/layouts/curriculum/Curriculum';
+import Contact from './components/layouts/contact/Contact';
+import Header from './components/layouts/header/Header';
+import AppData from './AppData';
 
-export class AppData {
-    static PTBR = 'pt-br';
-    static EN = 'en';
+const App = () => {
+    const [appData, setAppData] = useState(null);
 
-    constructor(handleChange){
-        this.handleChange = handleChange; 
-        this.strings = {
-            'pt-br': {
-                'home': 'Início',
-                'about-me': 'Sobre',
-                'portfolio': 'Portifolio',
-                'cv': 'Currículo',
-                'title': 'Meu Portifolio.',
-                'profile': 'Desenvolvedor Full Stack & Estudante de Ciência da Computação'
-            },
-            'en': {
-                'home': 'Home',
-                'about-me': 'About Me',
-                'portfolio': 'Portfolio',
-                'cv': 'Curriculum',
-                'title': 'My Portfolio.',
-                'profile': 'Full Stack Developer & Computer Science Student'
-            },
-        }
-    
-        this.language = AppData.EN;
+
+    const handleChangeAppData = (newAppData) => {
+        setAppData(newAppData);
     }
 
-    changeLg(language) {
-        this.language = language;
-        this.handleChange(this);
-    }
+    useEffect(() => {
+        setAppData(new AppData((data) => {handleChangeAppData(data)}));
+    }, []);
 
-    getString(code){
-        return this.strings[this.language][code];
-    }
-}
-
-class App extends Component {
-    state = {
-        appData: new AppData(this.handleChangeAppData.bind(this)),
-    }
-    
-    handleChangeAppData(appData) {
-        this.setState(
-            {
-                appData: appData,
-            }
-        )
-    }
-
-    render() {
-        const { appData } = this.state;        
-
+    if(appData === null){
+        return (<div></div>)
+    } else {
         return (
             <div>
+                <Header appData={appData}></Header>
                 <Home appData={appData}/>
-                <About appData={appData}/>
+                <About appData={appData}/>  
+                <Portfolio appData={appData}/>
+                {/* <Curriculum appData={appData}/> */}
+                <Contact appData={appData}></Contact>
             </div>
         )
     }

@@ -1,9 +1,19 @@
+.action-box{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    margin: 10px;
+    margin-top: 25px;
+}
+
 /* Colors - Main Theme */
 :root{
     --pri-d: #0A2647; /* Primary Color Darker */
     --pri: #144272;   /* Primary Color */
     --pri-l: #205295; /* Primary Color Lighter */
+    --pri-o: rgba(20, 66, 114, 0.7); /* Primary Color Transparent*/
     --sec: #FFFFFF;   /* Secondary Color */
+    --sec-t: rgba(255, 255, 255, 0.1); /* Secondary Color Transparent */
     --acc: #E4C41F;   /* Accent Color Lighter */
 }
 
@@ -12,4 +22,76 @@ body, html {
     background-color: var(--pri);
     color: var(--sec);
     margin: 0px;
+    font-size: x-large;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: xxx-large;
+}
+
+h3{
+    font-size: xx-large;
+}
+
+h4{
+   font-size: x-large; 
+}
+
+small{
+    font-size: small;
+}
+
+p{
+    font-size: x-large;
+    white-space: pre-line;
+    line-height: 25px;
+}
+
+button{
+    font-size: large;
+}
+
+@media only screen and (max-width: 800px) {
+    body, html {
+        font-family: 'League Spartan', ubuntu, sans-serif;
+        background-color: var(--pri);
+        color: var(--sec);
+        margin: 0px;
+        font-size: large;
+    }
+    
+    h1{
+        font-size: 40px;
+    }
+    
+    h2{
+        font-size: xx-large;
+    }
+    
+    h3{
+        font-size: x-large;
+    }
+    
+    h4{
+       font-size: large; 
+    }
+    
+    small{
+        font-size: small;
+    }
+    
+    p{
+        font-size: large;
+        white-space: pre-line;
+        line-height: 20px;
+    }
+    
+    button{
+        font-size: medium;
+    }
+    
 }

@@ -1,5 +1,13 @@
+/* Section Title CSS ---------- */
+
+.sec-title-box{
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .sec-title{
-    font-size: xx-large;
     margin-bottom: 0;
 }
 
@@ -11,4 +19,131 @@
     width: 70%;
     margin-top: 0;
     margin-left: -2px;
+}
+
+/* -------------------------- */
+
+/* Button CSS */
+
+.button-port{
+    background: linear-gradient(180deg, rgba(183, 52, 179, 0.15) 0%, rgba(164, 46, 156, 0) 100%),var(--acc);
+    color: var(--sec);
+    font-weight: bold;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.button-port:hover{
+    background: linear-gradient(180deg, rgba(183, 52, 179, 0.15) 0%, rgba(255, 71, 243, 0) 100%),var(--acc);
+    -webkit-box-shadow: 0px 7px 14px -9px rgba(255,255,255,0.42);
+    -moz-box-shadow: 0px 7px 14px -9px rgba(255,255,255,0.42);
+    box-shadow: 0px 7px 14px -9px rgba(255,255,255,0.42);
+}
+
+.button-port:active{
+    background: var(--acc);
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(255,255,255,0);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(255,255,255,0);
+    box-shadow: 0px 0px 0px 0px rgba(255,255,255,0);
+}
+
+.button-port:disabled{
+    background: rgba(231, 231, 231, 0.199);
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(255,255,255,0);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(255,255,255,0);
+    box-shadow: 0px 0px 0px 0px rgba(255,255,255,0);
+    color: rgb(163, 163, 163);
+}
+
+.button-port2{
+    background-color: var(--acc);
+    color: var(--sec);
+    font-weight: bold;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    transition-timing-function: ease-out;
+    -webkit-box-shadow: 11px 11px 21px -10px rgba(0,0,0,0.69);
+    -moz-box-shadow: 11px 11px 21px -10px rgba(0,0,0,0.69);
+    box-shadow: 11px 11px 21px -10px rgba(0,0,0,0.69);
+}
+
+.button-port2:hover{
+    transform: scale(1.1);
+    transition: 0.1s ease-out;
+    -webkit-box-shadow: 11px 11px 30px -10px rgba(0,0,0,0.69);
+    -moz-box-shadow: 11px 11px 30px -10px rgba(0,0,0,0.69);
+    box-shadow: 11px 11px 30px -10px rgba(0,0,0,0.69);
+}
+
+.button-port2:active{
+    transform: scale(1.0);
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.69);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.69);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.69);
+}
+
+.button-port2:disabled{
+    transform: scale(1.0);
+    background-color: rgb(204, 204, 204, 0.3);
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(255,255,255,0);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(255,255,255,0);
+    box-shadow: 0px 0px 0px 0px rgba(255,255,255,0);
+    color: rgb(163, 163, 163);
+}
+
+/* ------------------------- */
+
+/* ICON Container CSS */
+
+.icon-container {
+    background-color: var(--acc);
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 11px 11px 21px -10px rgba(0,0,0,0.69);
+    -moz-box-shadow: 11px 11px 21px -10px rgba(0,0,0,0.69);
+    box-shadow: 11px 11px 21px -10px rgba(0,0,0,0.69);
+}
+
+.icon-comp{
+    height: 80%;
+    width: 80%;
+}
+
+/* ------------------------- */
+
+/* Aspect Ratio Container */
+/* Forces the content inside ar-children to have 1/1 Aspect Ratio */
+
+.ar-container {
+    position: relative;
+    display: grid;
+}
+
+.ar-dummy {
+    margin-top: 100%;
+}
+
+.ar-children {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+/* ------------------------- */
+
+@media only screen and (max-width: 800px) {
+    .icon-container {
+        width: 10vw;
+        height: 10vw;
+    }
 }

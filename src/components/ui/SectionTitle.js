@@ -2,9 +2,11 @@ import './ui.css'
 
 const SectionTitle = (props) => {
     return (
-        <div>
-            <h1 className="sec-title">{props.children}</h1>
-            <hr className="sec-title-divider"/>
+        <div className='sec-title-box'>
+            <div>
+                <h2 className="sec-title">{props.children}</h2>
+                <hr className="sec-title-divider"/>
+            </div>
         </div>
     )
 }
