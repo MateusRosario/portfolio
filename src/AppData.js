@@ -45,7 +45,7 @@ class AppData {
 
                 //Projects
                 'source-code': 'Código Fonte',
-                'deployed': 'Disponibilizado',
+                'deployed': 'Públicado',
             },
             'en': {
                 // Headers
@@ -67,7 +67,7 @@ class AppData {
                 'about-degree-l': 'Degree',
                 'about-degree': 'Graduating in Computer Science',
                 'about-uni-l': 'University',
-                'about-uni': 'Federal Univercity of Tocantins',
+                'about-uni': 'Federal University of Tocantins',
                 'about-action-download': 'Download Curriculum',
                 'about-me': 'Hello! My name is Mateus Rosario and I am a passionate professional ' + 
                         'about development and programming, as well as a Computer Science student. ' + 

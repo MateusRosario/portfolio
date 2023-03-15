@@ -34,6 +34,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    margin-right: 5vw;
 }
 
 .desc-inside-box{
@@ -86,5 +87,9 @@
     .content{
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .desc-box{
+    margin-right: auto;
     }
 }
