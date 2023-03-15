@@ -5,6 +5,15 @@ import IconContainer from '../../ui/IconContainer'
 import { useState, useEffect } from 'react'
 // import {ReactComponent as IconeJS} from '../../../assets/icons/javascript.svg'
 
+const ProjectActionBox = (props) => {
+    return (
+        <div className='action-box'>
+            {props.source != null && props.source !== ''? <Button onClick={() => { props.openInNewTab(props.source) }}>{props.appData.getString('source-code')}</Button> : <></>}
+            {props.deployed != null && props.deployed !== '' ? <Button onClick={() => { props.openInNewTab(props.deployed) }}>{props.appData.getString('deployed')}</Button> : <></>}
+        </div>
+    )
+}
+
 const Project = (props) => {
 
     const openInNewTab = (url) => {
@@ -47,10 +56,7 @@ const Project = (props) => {
                             <p>{props.project.getDesc(props.appData.language)}</p>
                         </div>
                     </div>
-                    <div className='action-box'>
-                        {props.project.source != null ? <Button onClick={() => { openInNewTab(props.project.source) }}>Source Code</Button> : <></>}
-                        {props.project.deployed != null ? <Button onClick={() => { openInNewTab(props.project.deployed) }}>Deployed</Button> : <></>}
-                    </div>
+                    <ProjectActionBox source={props.project.source} deployed={props.project.deployed} openInNewTab={openInNewTab} appData={props.appData}/>
                 </div>
             </div>
         )
@@ -76,17 +82,14 @@ const Project = (props) => {
                                 <p>{props.project.getDesc(props.appData.language)}</p>
                             </div>
                         </div>
-                        <div className='action-box'>
-                            {props.project.source != null ? <Button onClick={() => { openInNewTab(props.project.source) }}>Source Code</Button> : <></>}
-                            {props.project.deployed != null ? <Button onClick={() => { openInNewTab(props.project.deployed) }}>Deployed</Button> : <></>}
-                        </div>
+                        <ProjectActionBox source={props.project.source} deployed={props.project.deployed} openInNewTab={openInNewTab} appData={props.appData}/>
                     </div>
                 </div>
             )
         } else {
             return (
                 <div className='project-box'>
-                    <div className="description-box">
+                    <div className="description-box-invert">
                         <div className='title-desc-box-invert'>
                             <h3>{props.project.getTitle(props.appData.language)}</h3>
                         </div>
@@ -96,10 +99,7 @@ const Project = (props) => {
                                 <div className='description-vertical-divider' />
                             </div>
                         </div>
-                        <div className='action-box'>
-                            <Button>Source Code</Button>
-                            <Button>Deployed</Button>
-                        </div>
+                        <ProjectActionBox source={props.project.source} deployed={props.project.deployed} openInNewTab={openInNewTab} appData={props.appData}/>
                     </div>
                     <div className='presentation-box'>
                         <Slider images={props.project.images}></Slider>

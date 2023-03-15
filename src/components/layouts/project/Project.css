@@ -38,6 +38,13 @@
 .description-box{
     display: flex;
     flex-direction: column;
+    margin-right: 5vw;
+}
+
+.description-box-invert{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
 }
 
 
@@ -76,6 +83,12 @@
         display: grid;
         grid-template-columns: 1fr;
         column-gap: 20px;
+    }
+
+    .description-box{
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
     }
 
     /* .presentation-icons{

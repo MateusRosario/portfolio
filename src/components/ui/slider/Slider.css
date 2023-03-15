@@ -41,6 +41,7 @@
     left: 40px;
     max-width: 1000px;
     max-height: 1000px;
+    cursor: pointer;
     transition: 0.3s;
 }
 
