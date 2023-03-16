@@ -23,6 +23,8 @@
     top: -30px;
     column-gap: 4%;
     height: 60px;
+    max-width: 100vw;
+    flex-wrap: wrap;
 }
 
 .presentation-icons-invert{
@@ -34,6 +36,8 @@
     top: -30px;
     column-gap: 4%;
     height: 60px;
+    max-width: 100vw;
+    flex-wrap: wrap;
 }
 
 

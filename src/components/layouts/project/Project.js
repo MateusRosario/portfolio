@@ -3,7 +3,6 @@ import Button from '../../ui/Button'
 import Slider from '../../ui/slider/Slider'
 import LinkedIcon from '../../ui/linkedIcon/LinkedIcon'
 import { useState, useEffect } from 'react'
-// import {ReactComponent as IconeJS} from '../../../assets/icons/javascript.svg'
 
 const ProjectActionBox = (props) => {
     return (
