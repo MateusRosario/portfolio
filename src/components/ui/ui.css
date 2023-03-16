@@ -101,49 +101,6 @@
 
 /* ------------------------- */
 
-/* ICON Container CSS */
-
-.icon-container {
-    background-color: var(--acc);
-    width: 60px;
-    height: 60px;
-    border-radius: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    -webkit-box-shadow: 11px 11px 21px -10px rgba(0,0,0,0.69);
-    -moz-box-shadow: 11px 11px 21px -10px rgba(0,0,0,0.69);
-    box-shadow: 11px 11px 21px -10px rgba(0,0,0,0.69);
-}
-
-.icon-comp{
-    height: 80%;
-    width: 80%;
-}
-
-/* ------------------------- */
-
-/* Aspect Ratio Container */
-/* Forces the content inside ar-children to have 1/1 Aspect Ratio */
-
-.ar-container {
-    position: relative;
-    display: grid;
-}
-
-.ar-dummy {
-    margin-top: 100%;
-}
-
-.ar-children {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-/* ------------------------- */
-
 @media only screen and (max-width: 800px) {
     .icon-container {
         width: 10vw;

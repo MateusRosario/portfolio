@@ -22,16 +22,6 @@ import geoportour2 from '../../../assets/projects/geoportour2.jpg'
 import geoportour3 from '../../../assets/projects/geoportour3.jpg'
 import geoportour4 from '../../../assets/projects/geoportour.jpg'
 
-//Icones
-import {ReactComponent as IconeJS} from '../../../assets/icons/javascript.svg'
-import {ReactComponent as IconeP5JS} from '../../../assets/icons/p5js.svg'
-import {ReactComponent as IconeJava} from '../../../assets/icons/java.svg'
-import {ReactComponent as IconePython} from '../../../assets/icons/python.svg'
-import {ReactComponent as IconePygame} from '../../../assets/icons/pygame.svg'
-import {ReactComponent as IconeDart} from '../../../assets/icons/dart.svg'
-import {ReactComponent as IconeFlutter} from '../../../assets/icons/flutter.svg'
-import {ReactComponent as IconeFirebase} from '../../../assets/icons/firebase.svg'
-import {ReactComponent as IconeAndroidStudio} from '../../../assets/icons/android-studio.svg'
 
 class ProjectModel {
     constructor (title, titlePt, description, descriptionPt, images, icons, source, deployed) {
@@ -84,7 +74,7 @@ const Portfolio = (props) => {
             'Pressionar tecla SHIFT: Adicionar efeito gravitacional na direção do cursor.\n\n' +
             'Pressionar tecla ALT: Posicionar uma nova bola no ambiente na posição do cursor (use a roda do mouse para aumentar ou reduzir o tamanho da nova bola).\n\n',
             //Images and Icons
-            [ballsCoLSim, ballsCoLSim1, ballsCoLSim2, ballsCoLSim3], [IconeJS, IconeP5JS], 
+            [ballsCoLSim, ballsCoLSim1, ballsCoLSim2, ballsCoLSim3], ['js', 'p5js'], 
             //Action Links
             'https://github.com/MateusRosario/BallsCollisionSimulation', 'https://mateusrosario.github.io/BallsCollisionSimulation/'),
 
@@ -102,7 +92,7 @@ const Portfolio = (props) => {
             'O programa Desktop tem o objetivo de manter um banco de questões de provas e simulados, permitindo cadastro, listagem, pesquisa e edição. Além disto é possível gerar PDFs e CSVs de provas e gabaritos com questões sortidas ou filtradas por assunto.\n\n' + 
             'Projeto feito em colaboração, siga para a página do código fonte no github para informações sobre os colaboradores.', 
             //Images and Icons
-            [questionBank, questionBank2], [IconeJava],
+            [questionBank, questionBank2], ['java'],
             //Action Links
             'https://github.com/MateusRosario/QuestionsBank'
             ),
@@ -119,7 +109,7 @@ const Portfolio = (props) => {
             'Implementação de um game de campo minado para brincar com o conceito de matriz utilizando a biblioteca pygame.\n\n' + 
             'O game é jogado usando os botões direito e esquerdo do mouse.',
             //Images and Icons
-            [minesweeper], [IconePython, IconePygame],
+            [minesweeper], ['python', 'pygame'],
             //Action Links
             'https://github.com/MateusRosario/Minesweeper',
             ),
@@ -146,7 +136,7 @@ const Portfolio = (props) => {
             ' - Especial 3 (C): próxima vez que a bola tocar na prancha do player, duas bolas são refletidas;\n\n' +
             'Obs.: todos os especiais são desativados após algum dos players ganhar ponto.',
             //Images and Icons
-            [pingpong, pingpong2], [IconePython, IconePygame],
+            [pingpong, pingpong2], ['python', 'pygame'],
             //Action Links
             'https://github.com/MateusRosario/PingPongSimpleGame'
             ),
@@ -176,7 +166,7 @@ const Portfolio = (props) => {
             'o acesso de dados. Este foi emplementado em Flutter, utilizando o Firebase como banco de dados principal e buscando informações em uma Api RestFull da ' + 
             'plataforma web GeoPorTour.',
             //Images and Icons
-            [geoportour1, geoportour2, geoportour3, geoportour4], [IconeDart, IconeFlutter, IconeFirebase, IconeAndroidStudio],
+            [geoportour1, geoportour2, geoportour3, geoportour4], ['dart', 'flutter', 'firebase', 'androidstudio'],
             //Action Links
             '', 'https://play.google.com/store/apps/details?id=com.fabricadesoftwareuft.geoportour'
             ),

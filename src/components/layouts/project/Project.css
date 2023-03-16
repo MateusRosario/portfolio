@@ -11,7 +11,7 @@
     justify-self: center;
     display: grid;
     align-items: center;
-    width: 100%;    
+    width: 100%; 
     max-width: 60vh;
 }
 
@@ -22,6 +22,7 @@
     padding-left: 10%;
     top: -30px;
     column-gap: 4%;
+    height: 60px;
 }
 
 .presentation-icons-invert{
@@ -32,6 +33,7 @@
     padding-right: 20%;
     top: -30px;
     column-gap: 4%;
+    height: 60px;
 }
 
 
@@ -90,13 +92,16 @@
         flex-direction: column;
         margin-right: auto;
     }
+}
 
-    /* .presentation-icons{
-        z-index: 3;
-        display: flex;
-        position: relative;
-        padding-left: 10px;
-        top: -15px;
-        column-gap: 10px;
-    } */
+@media only screen and (max-device-width: 850px){
+    .presentation-icons{
+        height: 40px;
+        top: -25px;
+    }
+    
+    .presentation-icons-invert{
+        height: 40px;
+        top: -25px;
+    }
 }

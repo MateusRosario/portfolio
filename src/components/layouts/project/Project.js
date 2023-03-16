@@ -1,7 +1,7 @@
 import './Project.css'
 import Button from '../../ui/Button'
 import Slider from '../../ui/slider/Slider'
-import IconContainer from '../../ui/IconContainer'
+import LinkedIcon from '../../ui/linkedIcon/LinkedIcon'
 import { useState, useEffect } from 'react'
 // import {ReactComponent as IconeJS} from '../../../assets/icons/javascript.svg'
 
@@ -46,7 +46,7 @@ const Project = (props) => {
                     <Slider images={props.project.images}></Slider>
                     <div className='presentation-icons'>
                         {props.project.icons.map((item, index) => {
-                            return (<IconContainer key={index} icon={item} />)
+                            return (<LinkedIcon key={index} name={item} fill='var(--pri)'/>)
                         })}
                     </div>
                 </div>
@@ -68,7 +68,7 @@ const Project = (props) => {
                             <Slider images={props.project.images}></Slider>
                             <div className='presentation-icons'>
                                 {props.project.icons.map((item, index) => {
-                                    return (<IconContainer key={index} icon={item} />)
+                                    return (<LinkedIcon key={index} name={item} fill='var(--pri)'/>)
                                 })}
                             </div>
                     </div>
@@ -105,7 +105,7 @@ const Project = (props) => {
                         <Slider images={props.project.images}></Slider>
                         <div className='presentation-icons-invert'>
                             {props.project.icons.map((item, index) => {
-                                return (<IconContainer key={index} icon={item} />)
+                                return (<LinkedIcon key={index} name={item} fill='var(--pri)'/>)
                             })}
                         </div>
                     </div>
