@@ -24,7 +24,6 @@ const About = (props) => {
                 <div className='image-box'>
                     <div className='image-container'>
                         <Slider images={[profile]}></Slider>
-                        {/* <img className='about-image' src={profile} alt="Profile" /> */}
                     </div>
                 </div>
                 <div className='desc-box'>
