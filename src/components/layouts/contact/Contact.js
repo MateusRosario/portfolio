@@ -1,4 +1,5 @@
 import SectionTitle from '../../ui/SectionTitle';
+import {isMobileOnly} from 'react-device-detect';
 import './Contact.css'
 import {ReactComponent as GithubIcon} from '../../../assets/icons/github.svg'
 import {ReactComponent as LinkedinIcon} from '../../../assets/icons/linkedin.svg'
@@ -10,26 +11,36 @@ function openInNewTab(url) {
     }
 }
 
-const Contact = () => {
+const Contact = (props) => {
     var contacts = [LinkedinIcon, GithubIcon, EmailIcon]
     var links = ['https://www.linkedin.com/in/mateus-da-silva-rosario-275420176/', 'https://github.com/MateusRosario', 'mailto:mateusrosario.me@gmail.com?subject=contact']
+    var strings = ['Linkedin', 'Github', 'Email']
 
     return (
         <div id='contact' className="contact-box">
-            <SectionTitle>Contact Me</SectionTitle>
+            <SectionTitle>{props.appData.getString('contact')}</SectionTitle>
             <div className='contact-icones-box'>
                 {contacts.map((item, index) => {
                     const Icon = item
-                    return (
-                        <div key={index} className='contact-icon-con'>
-                            <Icon onClick={() => {openInNewTab(links[index])}} className='contact-icon' fill='var(--acc)'></Icon>
-                        </div>
-                    )
+                    if (!isMobileOnly) {
+                        return (
+                            <div key={index} className='contact-icon-con'>
+                                <Icon onClick={() => {openInNewTab(links[index])}} className='contact-icon' fill='var(--acc)'></Icon>
+                            </div>
+                        )
+                    } else {
+                        return (
+                            <div key={index} className='contact-icon-con mobile'>
+                                <Icon onClick={() => {openInNewTab(links[index])}} className='contact-icon' fill='var(--acc)'></Icon>
+                                <div>{strings[index]}</div>
+                            </div>
+                        )
+                    }
                 }
                 )}                
             </div>
             <div className='contact-ass-box'>
-                <small>Página de minha autoria - Source Code</small>
+                <small>Página de minha autoria - <u onClick={() => {openInNewTab('https://github.com/MateusRosario/portfolio')}} style={{'cursor': 'pointer'}}>{props.appData.getString('source-code')}</u></small>
             </div>
         </div>
     )
