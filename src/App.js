@@ -16,7 +16,10 @@ const App = () => {
     }
 
     useEffect(() => {
-        setAppData(new AppData((data) => {handleChangeAppData(data)}));
+        let lang = navigator.language || navigator.userLanguage;
+        console.log('Language setted on the navigator:', lang);
+
+        setAppData(new AppData((data) => {handleChangeAppData(data)}, lang));
     }, []);
 
     if(appData === null){

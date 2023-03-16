@@ -1,11 +1,11 @@
 
 class AppData {
-    static PTBR = 'pt-br';
+    static PTBR = 'pt-BR';
     static EN = 'en';
 
     constructor(handleChange, lg = AppData.EN){
         this.strings = {
-            'pt-br': {
+            'pt-BR': {
                 // Headers
                 'home': 'Início',
                 'about': 'Sobre mim',
@@ -91,9 +91,13 @@ class AppData {
                 'deployed': 'Deployed',
             },
         }
-    
+
         this.handleChange = handleChange;
-        this.language = lg;
+        if(lg in this.strings){
+            this.language = lg;
+        }else{
+            this.language = AppData.EN;
+        }
     }
 
     changeLg(language) {

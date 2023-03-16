@@ -175,8 +175,8 @@ const Header = (props) => {
                     })}
                 </div>
                 <div className='right'>
-                    <HeadButton selected={lg === 'en'} onClick={() => changeLg(AppData.EN)}>Lg En</HeadButton>
-                    <HeadButton selected={lg === 'pt-br'} onClick={() => changeLg(AppData.PTBR)}>Lg Pt-br</HeadButton>
+                    <HeadButton selected={lg === AppData.EN} onClick={() => changeLg(AppData.EN)}>Lg En</HeadButton>
+                    <HeadButton selected={lg === AppData.PTBR} onClick={() => changeLg(AppData.PTBR)}>Lg Pt-br</HeadButton>
                 </div>
             </div>
         )

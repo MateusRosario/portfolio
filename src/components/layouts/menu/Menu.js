@@ -37,8 +37,8 @@ const Menu = (props) => {
                 </div>
                 <div className='menu-lg-box'>
                     <div className='menu-divider'/>
-                    <MenuButton selected={lg === 'en'} onClick={() => changeLg(AppData.EN)}>Lg En</MenuButton>
-                    <MenuButton selected={lg === 'pt-br'} onClick={() => changeLg(AppData.PTBR)}>Lg Pt-br</MenuButton>
+                    <MenuButton selected={lg === AppData.EN} onClick={() => changeLg(AppData.EN)}>Lg En</MenuButton>
+                    <MenuButton selected={lg === AppData.PTBR} onClick={() => changeLg(AppData.PTBR)}>Lg Pt-br</MenuButton>
                 </div>
             </div>
             <div className='menu-out-box' onClick={() => {props.onCloseMenu()}}/>
