@@ -1,7 +1,7 @@
 .slider-box {
     display: grid;
     height: 100%;
-    width: 100%;
+    width: min(100%, 100vw);
     /* margin-right: 40px;
     margin-left: 40px; */
 }
@@ -87,4 +87,22 @@
     border-radius: 5%;
     background: linear-gradient(-50deg, var(--pri-o), transparent);
     z-index: 1;
+}
+
+@media only screen and (max-width: 500px) {
+    .slider-image {
+        max-width: calc(100% - 30px);
+    }
+
+    .slider-image-behind-box{
+        width: calc(100% - 30px);
+        bottom: -20px;
+        left: 30px;
+    }
+
+    .slider-button {
+        height: 25px;
+        justify-self: end;
+        left: -2px;
+    }
 }
