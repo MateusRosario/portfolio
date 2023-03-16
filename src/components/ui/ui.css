@@ -107,3 +107,9 @@
         height: 10vw;
     }
 }
+
+@media only screen and (max-device-width: 800px) {
+    .button-port2{
+        height: 40px;
+    }
+}
