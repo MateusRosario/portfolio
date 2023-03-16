@@ -9,7 +9,7 @@ class AppData {
                 // Headers
                 'home': 'Início',
                 'about': 'Sobre mim',
-                'portfolio': 'Portifolio',
+                'portfolio': 'Meus Projetos',
                 'cv': 'Currículo',
                 'contact': 'Entre em Contato',
 
@@ -51,7 +51,7 @@ class AppData {
                 // Headers
                 'home': 'Home',
                 'about': 'About Me',
-                'portfolio': 'Portfolio',
+                'portfolio': 'My Projects',
                 'cv': 'Curriculum',
                 'contact': 'Contact Me',
 
