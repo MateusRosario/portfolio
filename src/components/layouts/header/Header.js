@@ -158,7 +158,7 @@ const Header = (props) => {
         }
     }
 
-    if (viewWidth > 800) {
+    if (viewWidth > 900) {
         return (
             <div id='header' className={headerClass}>
                 <div className='left'></div>
