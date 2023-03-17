@@ -94,3 +94,9 @@
         display: none;
     }
 }
+
+@media only screen and (max-width: 500px){
+    .detail-box{
+        grid-template-columns: 1fr;
+    }
+}
