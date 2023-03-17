@@ -1,10 +1,11 @@
 /* Section Title CSS ---------- */
 
-.sec-title-box{
+.sec-title-component{
     height: min-content;
-    display: flex;
+    display: flex;  
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .sec-title{
@@ -17,6 +18,7 @@
     border-radius: 2px;
     height: 4px;
     width: 70%;
+    max-width: 75px;
     margin-top: 0;
     margin-left: -2px;
 }
