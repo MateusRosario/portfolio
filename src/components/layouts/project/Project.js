@@ -2,6 +2,7 @@ import './Project.css'
 import Button from '../../ui/Button'
 import Slider from '../../ui/slider/Slider'
 import LinkedIcon from '../../ui/linkedIcon/LinkedIcon'
+import {isMobileOnly} from 'react-device-detect';
 import { useState, useEffect } from 'react'
 
 const ProjectActionBox = (props) => {
@@ -35,7 +36,7 @@ const Project = (props) => {
         };
     }, []);
 
-    if (viewWidth <= 850) {
+    if (isMobileOnly? viewWidth <= 500 : viewWidth <= 850) {
         return (
             <div className='project-box'>
                 <div>

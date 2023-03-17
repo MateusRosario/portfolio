@@ -100,6 +100,26 @@
 }
 
 @media only screen and (max-device-width: 850px){
+    .project-box{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .presentation-icons{
+        height: 40px;
+        top: -30px;
+    }
+    
+    .presentation-icons-invert{
+        height: 40px;
+        top: -30px;
+    }
+}
+
+@media only screen and (max-device-width: 500px){
+    .project-box{
+        grid-template-columns: 1fr;
+    }
+
     .presentation-icons{
         height: 40px;
         top: -30px;
