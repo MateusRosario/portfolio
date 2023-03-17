@@ -6,6 +6,7 @@ import Portfolio from './components/layouts/portfolio/Portfolio';
 import Contact from './components/layouts/contact/Contact';
 import Header from './components/layouts/header/Header';
 import AppData from './AppData';
+import Skills from './components/layouts/skills/skills';
 
 const App = () => {
     const [appData, setAppData] = useState(null);
@@ -29,7 +30,8 @@ const App = () => {
             <div>
                 <Header appData={appData}></Header>
                 <Home appData={appData}/>
-                <About appData={appData}/>  
+                <About appData={appData}/>
+                <Skills appData={appData}/>
                 <Portfolio appData={appData}/>
                 {/* <Curriculum appData={appData}/> */}
                 <Contact appData={appData}></Contact>

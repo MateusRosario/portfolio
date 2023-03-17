@@ -108,7 +108,7 @@ const Header = (props) => {
 
     const lg = props.appData.language;
 
-    const sections = ['home', 'about', 'portfolio', /*'cv',*/ 'contact']
+    const sections = ['home', 'about', 'skills', 'portfolio', /*'cv',*/ 'contact']
 
     const [menuIsOpen, setMenuIsOpen] = useState(false)
     const [position, setScrollPosition] = useState(0);

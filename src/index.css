@@ -56,14 +56,18 @@ button{
 }
 
 @media only screen and (max-width: 800px) {
+    button{
+        font-size: medium;
+    }
+    
+}
+
+@media only screen and (max-device-width: 800px) {
     body, html {
-        font-family: 'League Spartan', ubuntu, sans-serif;
-        background-color: var(--pri);
-        color: var(--sec);
-        margin: 0px;
         font-size: large;
     }
     
+
     h1{
         font-size: 40px;
     }
@@ -89,14 +93,7 @@ button{
         white-space: pre-line;
         line-height: 20px;
     }
-    
-    button{
-        font-size: medium;
-    }
-    
-}
 
-@media only screen and (max-device-width: 800px) {
     button{
         font-size: small;
     }

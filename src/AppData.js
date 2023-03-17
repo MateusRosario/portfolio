@@ -12,6 +12,7 @@ class AppData {
                 'portfolio': 'Meus Projetos',
                 'cv': 'Currículo',
                 'contact': 'Entre em Contato',
+                'skills': 'Habilidades',
 
                 //Home Titles
                 'title': 'Meu Portifolio.',
@@ -33,7 +34,7 @@ class AppData {
                         'Com 2 anos de experiência em desenvolvimento FullStack, trabalhei na construção de sistemas ' + 
                         'web em todas as etapas, desde o planejamento até o pós-lançamento. Durante esse período, desenvolvi ' + 
                         'habilidades em diversas tecnologias, incluindo Angular, JavaScript, TypeScript, Python, Django, ' + 
-                        'RESTful API, Flutter, React, Firebase, MySQL, entre outras. Além disso, aprendi a tomar decisões ' + 
+                        'RESTful API, Flutter, React, Firebase, MySQL, Swift, SwiftUI entre outras. Além disso, aprendi a tomar decisões ' + 
                         'assertivas, organizar o trabalho e liderar equipes. Sou apaixonado por resolver problemas com ' + 
                         'programação e sempre me empenho em entregar experiências úteis e intuitivas para os usuários e ' + 
                         'clientes.\n\n' + 
@@ -42,6 +43,9 @@ class AppData {
                         'Agradeço por visitar meu site e conhecer um pouco mais sobre mim. Se você ' + 
                         'estiver interessado em discutir um projeto ou tiver alguma dúvida, não hesite ' + 
                         'em entrar em contato comigo. Estou aberto a novas oportunidades e atualmente procurando emprego.',
+                
+                //Skills
+                'skills-text': 'Aqui estão apresentadas as tecnologias e ferramentas que tenho experiência de uso ou domínio.',
 
                 //Projects
                 'source-code': 'Código Fonte',
@@ -54,6 +58,7 @@ class AppData {
                 'portfolio': 'My Projects',
                 'cv': 'Curriculum',
                 'contact': 'Contact Me',
+                'skills': 'Skills',
 
                 //Home Titles
                 'title': 'My Portfolio.',
@@ -75,7 +80,7 @@ class AppData {
                         'With 2 years of experience in FullStack development, I worked on building web ' + 
                         'systems in all stages, from planning to post-launch. During this period, ' + 
                         'I developed skills in various technologies, including Angular, JavaScript, ' + 
-                        'TypeScript, Python, Django, RESTful API, Flutter, React, Firebase, MySQL, ' + 
+                        'TypeScript, Python, Django, RESTful API, Flutter, React, Firebase, MySQL, Swift, SwiftUI ' + 
                         'among others. In addition, I learned how to make assertive decisions, organize ' + 
                         'work, and lead teams. I am passionate about problem-solving through ' + 
                         'programming and always strive to deliver useful and intuitive experiences ' + 
@@ -85,6 +90,9 @@ class AppData {
                         'learning a little more about me. If you are interested in discussing a project or ' + 
                         'have any questions, please do not hesitate to contact me. I am open to new ' + 
                         'opportunities and currently looking for employment.',
+                
+                //Skills
+                'skills-text': 'Here are the technologies and tools that I have experience using or domain.',
 
                 //Projects
                 'source-code': 'Source Code',

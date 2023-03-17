@@ -2,6 +2,7 @@ import './LinkedIcon.css'
 
 // Import SVG files
 import {ReactComponent as jsSVG} from '../../../assets/icons/javascript.svg'
+import {ReactComponent as tsSVG} from '../../../assets/icons/typescript.svg'
 import {ReactComponent as p5jsSVG} from '../../../assets/icons/p5js.svg'
 import {ReactComponent as javaSVG} from '../../../assets/icons/java.svg'
 import {ReactComponent as pythonSVG} from '../../../assets/icons/python.svg'
@@ -10,10 +11,22 @@ import {ReactComponent as dartSVG} from '../../../assets/icons/dart.svg'
 import {ReactComponent as flutterSVG} from '../../../assets/icons/flutter.svg'
 import {ReactComponent as firebaseSVG} from '../../../assets/icons/firebase.svg'
 import {ReactComponent as androidstudioSVG} from '../../../assets/icons/android-studio.svg'
+import {ReactComponent as angularSVG} from '../../../assets/icons/angular.svg'
+import {ReactComponent as diagramsSVG} from '../../../assets/icons/diagrams.svg'
+import {ReactComponent as cssSVG} from '../../../assets/icons/css.svg'
+import {ReactComponent as htmlSVG} from '../../../assets/icons/html.svg'
+import {ReactComponent as djangoSVG} from '../../../assets/icons/django.svg'
+import {ReactComponent as figmaSVG} from '../../../assets/icons/figma.svg'
+import {ReactComponent as gitSVG} from '../../../assets/icons/git.svg'
+import {ReactComponent as mysqlSVG} from '../../../assets/icons/mysql.svg'
+import {ReactComponent as noderedSVG} from '../../../assets/icons/node-red.svg'
+import {ReactComponent as reactSVG} from '../../../assets/icons/react.svg'
+import {ReactComponent as swiftSVG} from '../../../assets/icons/swift.svg'
 
 //Dicionario de Icones SVG
 const SVGICONS = {
     'js': {svg: jsSVG, url: 'https://www.javascript.com/'}, 
+    'ts': {svg: tsSVG, url: 'https://www.typescriptlang.org/'}, 
     'p5js': {svg: p5jsSVG, url: 'https://p5js.org/'},
     'java': {svg: javaSVG, url: 'https://www.java.com/'},
     'python': {svg: pythonSVG, url: 'https://www.python.org/'},
@@ -22,6 +35,17 @@ const SVGICONS = {
     'flutter': {svg: flutterSVG, url: 'https://flutter.dev/'},
     'firebase': {svg: firebaseSVG, url: 'https://firebase.google.com/'},
     'androidstudio': {svg: androidstudioSVG, url: 'https://developer.android.com/studio'},
+    'angular': {svg: angularSVG, url: 'https://angular.io/'},
+    'diagrams': {svg: diagramsSVG, url: 'https://www.diagrams.net/'},
+    'css': {svg: cssSVG, url: 'https://www.css3.com/'},
+    'html': {svg: htmlSVG, url: 'https://html.com/'},
+    'django': {svg: djangoSVG, url: 'https://www.djangoproject.com/'},
+    'figma': {svg: figmaSVG, url: 'https://www.figma.com/'},
+    'git': {svg: gitSVG, url: 'https://git-scm.com/'},
+    'mysql': {svg: mysqlSVG, url: 'https://www.mysql.com/'},
+    'node-red': {svg: noderedSVG, url: 'https://nodered.org/'},
+    'react': {svg: reactSVG, url: 'https://react.dev/'},
+    'swift': {svg: swiftSVG, url: 'https://www.apple.com/br/swift/'},
 }
 
 const openInNewTab = (url) => {
