@@ -1,6 +1,7 @@
 {
-  "short_name": "Mateus Rosario",
+  "short_name": "Rosario's Portfolio",
   "name": "Mateus Rosario's Portfolio",
+  "description": "My Portfolio created using React / Meu Portifolio criado usando React",
   "icons": [
     {
       "src": "mateus.ico",
