@@ -29,6 +29,11 @@ const GetElementIntersectingHeader = (elementsID, viewHeight) => {
     const [elementsOnView, setElementOnView] = useState(() => { return [elementsID[0]] });
 
     useEffect(() => {
+        let rootMarginString = `0px 0px -${viewHeight - 50}px 0px`;
+        if(viewHeight - 50 < 0){
+            rootMarginString = '0px 0px 0px 0px';
+        }
+
         const observers = elementsID.map(id => new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
@@ -43,8 +48,7 @@ const GetElementIntersectingHeader = (elementsID, viewHeight) => {
                         setElementOnView(elementsOnView);
                     }
                 }
-                //console.log(elementsOnView)
-            }, { rootMargin: `0px 0px -${viewHeight - 50}px 0px` }
+            }, { rootMargin: rootMarginString }
         ))
 
         const elements = elementsID.map(id => document.getElementById(id))
