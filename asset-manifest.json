@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9f3a781d.css",
-    "main.js": "/portfolio/static/js/main.a7b33603.js",
+    "main.js": "/portfolio/static/js/main.c0311dc9.js",
     "static/media/ballsSim2.gif": "/portfolio/static/media/ballsSim2.ccb55dd09498c84a288c.gif",
     "static/media/ballsSim3.gif": "/portfolio/static/media/ballsSim3.40153c1b5213f8b6226e.gif",
     "static/media/ballsSim1.gif": "/portfolio/static/media/ballsSim1.ab63f1d6e8cec7b9ce00.gif",
@@ -45,10 +45,10 @@
     "static/media/flutter.svg": "/portfolio/static/media/flutter.644e6c5464051f00d093c3484227c0e6.svg",
     "static/media/menu.svg": "/portfolio/static/media/menu.d9f469140f1e34ab02a1ef6287442029.svg",
     "main.9f3a781d.css.map": "/portfolio/static/css/main.9f3a781d.css.map",
-    "main.a7b33603.js.map": "/portfolio/static/js/main.a7b33603.js.map"
+    "main.c0311dc9.js.map": "/portfolio/static/js/main.c0311dc9.js.map"
   },
   "entrypoints": [
     "static/css/main.9f3a781d.css",
-    "static/js/main.a7b33603.js"
+    "static/js/main.c0311dc9.js"
   ]
 }
