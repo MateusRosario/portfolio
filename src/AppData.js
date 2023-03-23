@@ -27,7 +27,7 @@ class AppData {
                 'about-degree': 'Graduando em Ciência da Computação',
                 'about-uni-l': 'Universidade',
                 'about-uni': 'Universidade Federal do Tocantins',
-                'about-action-download': 'Baixar Currículo',
+                'about-action-download': 'Currículo',
                 'about-me': 'Olá! Meu nome é Mateus Rosario e sou um profissional apaixonado por ' + 
                         'desenvolvimento e programação, além de estudante de Ciência da Computação. ' + 
                         'Estou sempre em busca de oportunidades para aprender e crescer profissionalmente.\n\n' + 
@@ -73,7 +73,7 @@ class AppData {
                 'about-degree': 'Graduating in Computer Science',
                 'about-uni-l': 'University',
                 'about-uni': 'Federal University of Tocantins',
-                'about-action-download': 'Download Curriculum',
+                'about-action-download': 'Curriculum Vitae',
                 'about-me': 'Hello! My name is Mateus Rosario and I am a passionate professional ' + 
                         'about development and programming, as well as a Computer Science student. ' + 
                         'I am always looking for opportunities to learn and grow professionally.\n\n' + 
