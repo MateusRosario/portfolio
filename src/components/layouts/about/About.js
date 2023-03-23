@@ -13,6 +13,12 @@ const DetailBoxItem = (props) => {
     )
 }
 
+function openInNewTab(url) {
+    if (url != null) {
+        window.open(url, '_blank').focus();
+    }
+}
+
 const About = (props) => {
     const getStr = (code) => {
         return props.appData.getString(code)
@@ -41,7 +47,7 @@ const About = (props) => {
                       </div>
                       <div className='action-box'>
                           {/* <Button>Curriculum</Button> */}
-                          <Button disabled={true}>{getStr('about-action-download')}</Button>
+                          <Button onClick={() => {openInNewTab('https://mateusrosario.github.io/myAutoCV/cv.pdf')}}>{getStr('about-action-download')}</Button>
                       </div>
                     </div>
                 </div>
