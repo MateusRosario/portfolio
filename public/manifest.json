@@ -4,22 +4,22 @@
   "description": "My Portfolio created using React / Meu Portifolio criado usando React",
   "icons": [
     {
-      "src": "mateus.ico",
+      "src": "mr.ico",
       "sizes": "200x200",
       "type": "image/x-icon"
     },
     {
-      "src": "mateus.png",
+      "src": "mr64.png",
       "sizes": "64x64",
       "type": "image/png"
     },
     {
-      "src": "mateus192.png",
+      "src": "mr192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "mateus512.png",
+      "src": "mr512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
