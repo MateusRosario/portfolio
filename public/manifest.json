@@ -30,7 +30,7 @@
   ],
   "start_url": ".",
   "id": "mateusRosarioPortfolio",
-  "display": "fullscreen",
+  "display": "standalone",
   "theme_color": "#0A2647",
   "background_color": "#144272"
 }
