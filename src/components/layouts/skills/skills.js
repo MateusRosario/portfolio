@@ -3,10 +3,29 @@ import LinkedIcon from '../../ui/linkedIcon/LinkedIcon'
 import './skills.css'
 
 const Skills = (props) => {
-    const skills = ['JavaScript', 'TypeScript', 'p5js', 'Java', 'Python', 'Dart', 'Flutter', 'Firebase', 'Android Studio', 'Angular', 'CSS', 'HTML', 'diagrams .net',
-         'Django', 'Figma', 'Git', 'MySQL', 'Node-RED','React','Swift/SwiftUI']
-    const skillsIconsNames = ['js', 'ts', 'p5js', 'java', 'python', 'dart', 'flutter', 'firebase', 'androidstudio', 'angular', 'css', 'html', 'diagrams',
-    'django', 'figma', 'git', 'mysql', 'node-red','react','swift']
+    const skills = [
+        ['JavaScript',     'js'],
+        ['TypeScript',     'ts'],
+        ['CSS',            'css'],
+        ['HTML',           'html'],
+        ['Java',           'java'],
+        ['Python',         'python'],
+        ['Swift/SwiftUI',  'swift'],
+        ['Dart',           'dart'],
+        ['Flutter',        'flutter'],
+        ['Android Studio', 'androidstudio'],
+        ['Angular',        'angular'],
+        ['Django',         'django'],
+        ['p5js',           'p5js'],
+        ['Figma',          'figma'],
+        ['React',          'react'],
+        ['Git',            'git'],
+        ['MySQL',          'mysql'],
+        ['Firebase',       'firebase'],
+        ['Node-RED',       'node-red'],
+        ['diagrams .net',  'diagrams'],
+        ['Trello',         'trello'],
+    ]
 
     return (
         <div id='skills' className='skills-section'>
@@ -16,8 +35,8 @@ const Skills = (props) => {
                 {skills.map((item, index) => {
                         return (
                             <div key={index} className='skills-block'>
-                                <div className='skills-block-text'>{item}</div>
-                                <LinkedIcon name={skillsIconsNames[index]} fill='var(--pri-d)'/>
+                                <div className='skills-block-text'>{item[0]}</div>
+                                <LinkedIcon name={item[1]} fill='var(--pri-d)'/>
                             </div>
                         )
                     })

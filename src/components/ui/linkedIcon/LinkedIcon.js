@@ -22,6 +22,7 @@ import {ReactComponent as mysqlSVG} from '../../../assets/icons/mysql.svg'
 import {ReactComponent as noderedSVG} from '../../../assets/icons/node-red.svg'
 import {ReactComponent as reactSVG} from '../../../assets/icons/react.svg'
 import {ReactComponent as swiftSVG} from '../../../assets/icons/swift.svg'
+import {ReactComponent as trelloSVG} from '../../../assets/icons/trello.svg'
 
 //Dicionario de Icones SVG
 const SVGICONS = {
@@ -46,6 +47,7 @@ const SVGICONS = {
     'node-red': {svg: noderedSVG, url: 'https://nodered.org/'},
     'react': {svg: reactSVG, url: 'https://react.dev/'},
     'swift': {svg: swiftSVG, url: 'https://www.apple.com/br/swift/'},
+    'trello': {svg: trelloSVG, url: 'https://trello.com/pt-BR'},
 }
 
 const openInNewTab = (url) => {
