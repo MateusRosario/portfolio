@@ -13,7 +13,7 @@ function openInNewTab(url) {
 
 const Contact = (props) => {
     var contacts = [LinkedinIcon, GithubIcon, EmailIcon]
-    var links = ['https://www.linkedin.com/in/mateus-da-silva-rosario-275420176/', 'https://github.com/MateusRosario', 'mailto:mateusrosario.me@gmail.com?subject=contact']
+    var links = ['https://www.linkedin.com/in/mateus-rosario/', 'https://github.com/MateusRosario', 'mailto:mateusrosario.me@gmail.com?subject=contact']
     var strings = ['Linkedin', 'Github', 'Email']
 
     return (
