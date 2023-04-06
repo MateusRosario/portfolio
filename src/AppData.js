@@ -15,7 +15,7 @@ class AppData {
                 'skills': 'Habilidades',
 
                 //Home Titles
-                'title': 'Meu Portifolio.',
+                'title': 'Meu Portfólio.',
                 'profile': 'Desenvolvedor Full Stack & Estudante de Ciência da Computação',
 
                 //About
