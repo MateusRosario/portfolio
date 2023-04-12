@@ -27,7 +27,7 @@ class AppData {
                 'about-degree': 'Graduando em Ciência da Computação',
                 'about-uni-l': 'Universidade',
                 'about-uni': 'Universidade Federal do Tocantins',
-                'about-action-download': 'Currículo',
+                'about-action-download': 'Curriculum Vitae',
                 'about-me': 'Olá! Meu nome é Mateus Rosario e sou um profissional apaixonado por ' + 
                         'desenvolvimento e programação, além de estudante de Ciência da Computação. ' + 
                         'Estou sempre em busca de oportunidades para aprender e crescer profissionalmente.\n\n' + 
@@ -43,13 +43,14 @@ class AppData {
                         'Agradeço por visitar meu site e conhecer um pouco mais sobre mim. Se você ' + 
                         'estiver interessado em discutir um projeto ou tiver alguma dúvida, não hesite ' + 
                         'em entrar em contato comigo. Estou aberto a novas oportunidades e atualmente procurando emprego.',
+                'cv-url': 'https://mateusrosario.github.io/myAutoCV/cv.pdf',
                 
                 //Skills
                 'skills-text': 'Aqui estão apresentadas as tecnologias e ferramentas que tenho experiência de uso ou domínio.',
 
                 //Projects
                 'source-code': 'Código Fonte',
-                'deployed': 'Públicado',
+                'deployed': 'Publicado',
             },
             'en': {
                 // Headers
@@ -90,6 +91,7 @@ class AppData {
                         'learning a little more about me. If you are interested in discussing a project or ' + 
                         'have any questions, please do not hesitate to contact me. I am open to new ' + 
                         'opportunities and currently looking for employment.',
+                'cv-url': 'https://mateusrosario.github.io/myAutoCV/cv-en.pdf',
                 
                 //Skills
                 'skills-text': 'Here are the technologies and tools that I have experience using or domain.',

@@ -46,8 +46,7 @@ const About = (props) => {
                           <DetailBoxItem label={getStr('about-uni-l')}>{getStr('about-uni')}</DetailBoxItem>
                       </div>
                       <div className='action-box'>
-                          {/* <Button>Curriculum</Button> */}
-                          <Button onClick={() => {openInNewTab('https://mateusrosario.github.io/myAutoCV/cv.pdf')}}>{getStr('about-action-download')}</Button>
+                          <Button onClick={() => {openInNewTab(getStr('cv-url'))}}>{getStr('about-action-download')}</Button>
                       </div>
                     </div>
                 </div>
