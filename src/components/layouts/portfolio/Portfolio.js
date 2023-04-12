@@ -86,7 +86,7 @@ const Portfolio = (props) => {
             //English Description
             'Object Oriented Programming (OOP) Discipline project, made in the second semester of graduation on Computer Science at Tocantins Federal University. Project made to learn OOP, UI programming in Java, data persistence, project management, and teamwork.\n\n' + 
             'The desktop program aims to maintain a question bank for mock and tests, allowing registration, listing, search, and editing of questions. Besides that, it is possible to generate PDFs, and CSVs of tests with questions assorted or filtered by subject.\n\n' +
-            'Project made in colaboration, follow to github source code page to see colaborators.',
+            'Project made in collaboration, follow to github source code page to see collaborators.',
             //Portuguese Description
             'Projeto da disciplina de Programação Orientada a Objetos (POO), feito no segundo semestre da graduação em Ciência da Computação da Universidade Federal do Tocantins. Projeto feito com o intuito de aprender sobre POO, programação de Interfaces em Java, persistência de dados, gerência de projetos e trabalho em equipe.\n\n' +
             'O programa Desktop tem o objetivo de manter um banco de questões de provas e simulados, permitindo cadastro, listagem, pesquisa e edição. Além disto é possível gerar PDFs e CSVs de provas e gabaritos com questões sortidas ou filtradas por assunto.\n\n' + 
