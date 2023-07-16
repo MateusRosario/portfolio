@@ -24,25 +24,29 @@ class AppData {
                 'about-age-l': 'Idade',
                 'about-age': '23',
                 'about-degree-l': 'Graduação',
-                'about-degree': 'Graduando em Ciência da Computação',
+                'about-degree': 'Bacharel em Ciência da Computação',
                 'about-uni-l': 'Universidade',
                 'about-uni': 'Universidade Federal do Tocantins',
                 'about-action-download': 'Curriculum Vitae',
-                'about-me': 'Olá! Meu nome é Mateus Rosario e sou um profissional apaixonado por ' + 
-                        'desenvolvimento e programação, além de estudante de Ciência da Computação. ' + 
-                        'Estou sempre em busca de oportunidades para aprender e crescer profissionalmente.\n\n' + 
-                        'Com 2 anos de experiência em desenvolvimento FullStack, trabalhei na construção de sistemas ' + 
-                        'web em todas as etapas, desde o planejamento até o pós-lançamento. Durante esse período, desenvolvi ' + 
-                        'habilidades em diversas tecnologias, incluindo Angular, JavaScript, TypeScript, Python, Django, ' + 
-                        'RESTful API, Flutter, React, Firebase, MySQL, Swift, SwiftUI entre outras. Além disso, aprendi a tomar decisões ' + 
-                        'assertivas, organizar o trabalho e liderar equipes. Sou apaixonado por resolver problemas com ' + 
-                        'programação e sempre me empenho em entregar experiências úteis e intuitivas para os usuários e ' + 
-                        'clientes.\n\n' + 
-                        'Fora do meu trabalho e estudos, gosto de jogos e sou um entusiasta do futuro da realidade virtual ' + 
-                        'e aumentada.\n\n' + 
-                        'Agradeço por visitar meu site e conhecer um pouco mais sobre mim. Se você ' + 
-                        'estiver interessado em discutir um projeto ou tiver alguma dúvida, não hesite ' + 
-                        'em entrar em contato comigo. Estou aberto a novas oportunidades e atualmente procurando emprego.',
+                'about-me': 'Possuo perfil de liderança e companheirismo, '
+                            + 'além de ser muito organizado e comunicativo. ' 
+                            + 'Isso me permite encaixar bem em diversos projetos e '
+                            + 'contribuir grandemente para as discussões.\n'
+                            + '\n'
+                            + 'Realizei o desenvolvimento de um sistema para '
+                            + 'elaboração e atualização de Projetos Pedagógicos de '
+                            + 'Curso no meu ultimo cargo e isto trouxe para a '
+                            + 'Universidade Federal do Tocantins um ambiente '
+                            + 'centralizado para a evolução rápida do seu ensino, '
+                            + 'um sistema inovador e pioneiro que substituiu a ' 
+                            + 'elaboração manual e analógica anteriormente performada '
+                            + 'na instituição.\n'
+                            + '\n'
+                            + 'Tenho conhecimentos em Angular, JavaScript, ' 
+                            + 'TypeScript, Python, Django, RESTful API, Flutter, ' 
+                            + 'React, Firebase, MySQL e certificações para ' 
+                            + 'desenvolvimento com serviços IBMCloud e para ios '
+                            + 'com Swift eSwiftUI.',
                 'cv-url': 'https://mateusrosario.github.io/myAutoCV/cv.pdf',
                 
                 //Skills
