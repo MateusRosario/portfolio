@@ -2,6 +2,7 @@ import './Portfolio.css'
 import SectionTitle from '../../ui/SectionTitle'
 import Project from '../project/Project'
 import AppData from '../../../AppData'
+import PortfolioProject from './portifolioProject/portfolioProject'
 
 //Imagens
 import ballsCoLSim from '../../../assets/projects/balls-collision.png'
@@ -177,6 +178,7 @@ const Portfolio = (props) => {
     return (
         <div id='portfolio' className="portfolio">
             <SectionTitle>{props.appData.getString('portfolio')}</SectionTitle>
+            <PortfolioProject appData={props.appData}/>
             {projects.map((item, index) => {
                 invert = !invert
                 return <Project key={index} project={item} invert={invert} appData={props.appData}></Project>

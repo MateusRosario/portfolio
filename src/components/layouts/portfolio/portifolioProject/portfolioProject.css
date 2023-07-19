@@ -1,0 +1,95 @@
+.portfolio-project {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+
+    text-align: center;
+}
+
+.portfolio-project-title {
+    color: var(--acc);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.portfolio-project p{
+    width: 70%;
+}
+
+.react-icon-portfolio-svg {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 30px;
+}
+
+.portfolio-project-shots {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+
+.portfolio-project-shot{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-project-phone-shot{
+    aspect-ratio: 9/19;
+    max-width: 50%;
+
+    border-radius: 5px;
+
+    -webkit-box-shadow: 11px 11px 21px -10px rgba(0,0,0,0.69);
+    -moz-box-shadow: 11px 11px 21px -10px rgba(0,0,0,0.69);
+    box-shadow: 11px 11px 21px -10px rgba(0,0,0,0.69);
+}
+
+.portfolio-project-wide-shot{
+    aspect-ratio: 16/9;
+    max-width: 100%;
+
+    border-radius: 5px;
+
+    -webkit-box-shadow: 11px 11px 21px -10px rgba(0,0,0,0.69);
+    -moz-box-shadow: 11px 11px 21px -10px rgba(0,0,0,0.69);
+    box-shadow: 11px 11px 21px -10px rgba(0,0,0,0.69);
+}
+
+.portfolio-divider{
+    background-color: var(--acc);
+    border-color: var(--acc);
+    border-radius: 2px;
+    height: 4px;
+    width: 70%;
+    max-width: 800px;
+    margin-top: 0;
+    margin-left: -2px;
+}
+
+@media only screen and (max-width: 800px) {
+    .react-icon-portfolio-svg {
+        height: 40px;
+        width: 40px;
+        margin-bottom: 30px;
+    }
+
+    .portfolio-project-shot{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .portfolio-project-shots {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+    
+        margin-bottom: 30px;
+    }
+}

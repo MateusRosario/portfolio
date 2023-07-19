@@ -25,6 +25,13 @@
 
         "skills-text": "Aqui estão apresentadas as tecnologias e ferramentas que tenho experiência de uso ou domínio.",
 
+        "portfolio-pre-intro": "Este",
+        "portfolio-label": "Portfólio",
+        "portfolio-intro": "é um projeto de minha autoria desenvolvido utilizando",
+        "portfolio-desc1": "Esta página tem o objetivo de servir como um catálogo e amostra dos meus projetos, experiencias e habilidades técnicas. Porém, foi idealizada inicialmente como forma de demonstrar e aprimorar minhas habilidades com front-end dev e React",
+        "portfolio-desc2": "A página foi desenvolvida com o intuito de ser totalmente responsiva e intuitiva, tomando-se, ainda, o desafio de não utilizar bibliotecas CSS",
+        "portfolio-continue": "Explore mais dos meus projetos abaixo",
+
         "source-code": "Código Fonte",
         "deployed": "Publicado"
     },
@@ -52,6 +59,13 @@
         "cv-url": "https://mateusrosario.github.io/myAutoCV/cv-en.pdf",
 
         "skills-text": "Here are the technologies and tools that I have experience using or domain.",
+
+        "portfolio-pre-intro": "This",
+        "portfolio-label": "Portfolio",
+        "portfolio-intro": "is a project of my authorship developed using",
+        "portfolio-desc1": "This page is intended to serve as a catalog and sample of my projects, experiences and technical skills. However, it was initially conceived as a way to demonstrate and improve my skills with front-end dev and React",
+        "portfolio-desc2": "The page was developed with the aim of being fully responsive and intuitive, taking on the challenge of not using CSS libraries",
+        "portfolio-continue": "Explore more of my projects below",
 
         "source-code": "Source Code",
         "deployed": "Deployed"
