@@ -1,0 +1,59 @@
+{
+    "pt-BR": {
+        "home": "Início",
+        "about": "Sobre mim",
+        "portfolio": "Meus Projetos",
+        "cv": "Currículo",
+        "contact": "Entre em Contato",
+        "skills": "Habilidades",
+
+        
+        "title": "Meu Portfólio.",
+        "profile": "Desenvolvedor Full Stack & Estudante de Ciência da Computação",
+        
+        "about-name-l": "Nome",
+        "about-name": "Mateus da Silva Rosario",
+        "about-age-l": "Idade",
+        "about-age": "23",
+        "about-degree-l": "Graduação",
+        "about-degree": "Bacharel em Ciência da Computação",
+        "about-uni-l": "Universidade",
+        "about-uni": "Universidade Federal do Tocantins",
+        "about-action-download": "Curriculum Vitae",
+        "about-me": "Sou Cientista da Computação, com 2 anos de experiência em desenvolvimento FullStack. Capaz de atuar com excelência em desenvolvimento Web e Mobile, tanto com front-end quanto com Back-end.\n\n\tPossuo perfil de liderança e companheirismo, além de ser muito organizado e comunicativo. Isso me permite me encaixar bem em diversos projetos e contribuir grandemente para as discussões.\n\n\t No meu último cargo realizei o desenvolvimento de um sistema para elaboração e atualização de Projetos Pedagógicos de Curso e isto trouxe para a Universidade Federal do Tocantins um ambiente centralizado para a evolução rápida do seu ensino, um sistema inovador e pioneiro que substitui a elaboração manual e analógica anteriormente performada na instituição.\n\n\tTenho conhecimentos em Angular, JavaScript, TypeScript, Python, Django, RESTful API, Flutter, React, Firebase, MySQL e certificações para desenvolvimento com serviços IBM Cloud e para iOS com Swift e SwiftUI.\n",
+        "cv-url": "https://mateusrosario.github.io/myAutoCV/cv.pdf",
+
+        "skills-text": "Aqui estão apresentadas as tecnologias e ferramentas que tenho experiência de uso ou domínio.",
+
+        "source-code": "Código Fonte",
+        "deployed": "Publicado"
+    },
+    "en": {
+        "home": "Home",
+        "about": "About Me",
+        "portfolio": "My Projects",
+        "cv": "Curriculum",
+        "contact": "Contact Me",
+        "skills": "Skills",
+
+        "title": "My Portfolio.",
+        "profile": "Full Stack Developer & Computer Science Student",
+
+        "about-name-l": "Name",
+        "about-name": "Mateus da Silva Rosario",
+        "about-age-l": "Age",
+        "about-age": "23",
+        "about-degree-l": "Degree",
+        "about-degree": "Bachelor's in Computer Science",
+        "about-uni-l": "University",
+        "about-uni": "Federal University of Tocantins",
+        "about-action-download": "Curriculum Vitae",
+        "about-me": "I am a Computer Scientist with 2 years of experience in FullStack development. I am capable of excelling in both Web and Mobile development, handling both front-end and back-end tasks.\n\nI possess leadership and teamwork skills, along with being highly organized and communicative. This enables me to fit well into various projects and contribute significantly to discussions.\n\nIn my last position, I worked on the development of a system for creating and updating Course Pedagogical Projects. This brought the Federal University of Tocantins a centralized environment for rapid evolution of its teaching methods, an innovative and pioneering system that replaced the previous manual and analogical approach used in the institution.\n\nI have expertise in Angular, JavaScript, TypeScript, Python, Django, RESTful API, Flutter, React, Firebase, MySQL, and certifications for development using IBM Cloud services and for iOS with Swift and SwiftUI.",
+        "cv-url": "https://mateusrosario.github.io/myAutoCV/cv-en.pdf",
+
+        "skills-text": "Here are the technologies and tools that I have experience using or domain.",
+
+        "source-code": "Source Code",
+        "deployed": "Deployed"
+    }
+}
