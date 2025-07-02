@@ -58,6 +58,36 @@ const Portfolio = (props) => {
     let projects = [
         new ProjectModel(
             //English Title
+            'GeoPorTOur',
+            //Portuguese Title
+            'GeoPorTOur',
+            //English Description
+            'GeoPorTour is a social education app about the historical landmarks of the city of Porto Nacional (Tocantins, Brazil). ' + 
+            'The app allows users to navigate through the city map, exploring each historical and cultural attraction, with information, ' + 
+            'location, and images of the site, and the ability to virtually visit the selected point. The Virtual Tour is a navigation through' + 
+            'various 360-degree images that allows users to view and navigate through the entire Geo-touristic itinerary, including streets, ' + 
+            'squares, cathedral, museum, and much more.\n\n' + 
+            'The application was developed using resources from Proex - UFT (Pro-Rectory of Extension, Culture, and Community Affairs of the Federal University of Tocantins) ' + 
+            'as an extension project. I was responsible for all the technical development of the app, designing the interface, functions, and data access. ' + 
+            'It was implemented in Flutter, using Firebase as the main database and fetching information from a RestFull API of the GeoPorTour web platform.',
+            //Portuguese Description
+            'GeoPorTour é um app para educação social sobre os marcos históricos da cidade de Porto Nacional (Tocantins, Brasil). ' +
+            'O app permite fazer uma navegação pelo mapa da cidade, explorando cada atrativo histórico-cultural, com informações, ' +
+            'localização e imagens do local, podendo realizar a visita virtual ao ponto selecionado. O Tour Virtual é uma navegação ' + 
+            'por diversas imagens em 360 graus, que possibilita visualizar e navegar por todo o percurso do Roteiro Geo-turístico, ' + 
+            'incluindo ruas, praça, catedral, museu e muito mais.\n\n' +
+            'Aplicativo feito por meio dos recursos da Proex - UFT (Pró-reitoria de extensão, cultura e assuntos comunitários da Universidade Federal do Tocantins), ' + 
+            'como um projeto de extensão. Fui responsável por todo o desenvolvimento técnico do app, projetando o design e implementando toda a interface, funções e ' + 
+            'o acesso de dados. Este foi implementado em Flutter, utilizando o Firebase como banco de dados principal e buscando informações em uma Api RestFull da ' + 
+            'plataforma web GeoPorTour.',
+            //Images and Icons
+            [geoportour1, geoportour2, geoportour3, geoportour4], ['dart', 'flutter', 'firebase', 'androidstudio'],
+            //Action Links
+            '', 'https://play.google.com/store/apps/details?id=com.fabricadesoftwareuft.geoportour'
+            ),
+            
+        new ProjectModel(
+            //English Title
             'Balls Collision Simulation', 
             //Portuguese Title
             'Simulação de Bolas Colidindo',
@@ -140,36 +170,6 @@ const Portfolio = (props) => {
             [pingpong, pingpong2], ['python', 'pygame'],
             //Action Links
             'https://github.com/MateusRosario/PingPongSimpleGame'
-            ),
-
-        new ProjectModel(
-            //English Title
-            'GeoPorTOur',
-            //Portuguese Title
-            'GeoPorTOur',
-            //English Description
-            'GeoPorTour is a social education app about the historical landmarks of the city of Porto Nacional (Tocantins, Brazil). ' + 
-            'The app allows users to navigate through the city map, exploring each historical and cultural attraction, with information, ' + 
-            'location, and images of the site, and the ability to virtually visit the selected point. The Virtual Tour is a navigation through' + 
-            'various 360-degree images that allows users to view and navigate through the entire Geo-touristic itinerary, including streets, ' + 
-            'squares, cathedral, museum, and much more.\n\n' + 
-            'The application was developed using resources from Proex - UFT (Pro-Rectory of Extension, Culture, and Community Affairs of the Federal University of Tocantins) ' + 
-            'as an extension project. I was responsible for all the technical development of the app, designing the interface, functions, and data access. ' + 
-            'It was implemented in Flutter, using Firebase as the main database and fetching information from a RestFull API of the GeoPorTour web platform.',
-            //Portuguese Description
-            'GeoPorTour é um app para educação social sobre os marcos históricos da cidade de Porto Nacional (Tocantins, Brasil). ' +
-            'O app permite fazer uma navegação pelo mapa da cidade, explorando cada atrativo histórico-cultural, com informações, ' +
-            'localização e imagens do local, podendo realizar a visita virtual ao ponto selecionado. O Tour Virtual é uma navegação ' + 
-            'por diversas imagens em 360 graus, que possibilita visualizar e navegar por todo o percurso do Roteiro Geo-turístico, ' + 
-            'incluindo ruas, praça, catedral, museu e muito mais.\n\n' +
-            'Aplicativo feito por meio dos recursos da Proex - UFT (Pró-reitoria de extensão, cultura e assuntos comunitários da Universidade Federal do Tocantins), ' + 
-            'como um projeto de extensão. Fui responsável por todo o desenvolvimento técnico do app, projetando o design e implementando toda a interface, funções e ' + 
-            'o acesso de dados. Este foi implementado em Flutter, utilizando o Firebase como banco de dados principal e buscando informações em uma Api RestFull da ' + 
-            'plataforma web GeoPorTour.',
-            //Images and Icons
-            [geoportour1, geoportour2, geoportour3, geoportour4], ['dart', 'flutter', 'firebase', 'androidstudio'],
-            //Action Links
-            '', 'https://play.google.com/store/apps/details?id=com.fabricadesoftwareuft.geoportour'
             ),
     ];
 
