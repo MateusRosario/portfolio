@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.35b1468a.css",
-    "main.js": "/static/js/main.3e302af7.js",
+    "main.js": "/static/js/main.081b5e3c.js",
     "static/media/ballsSim2.gif": "/static/media/ballsSim2.ccb55dd09498c84a288c.gif",
     "static/media/wide.png": "/static/media/wide.9c7e19e2b5a20589e2e6.png",
     "static/media/ballsSim3.gif": "/static/media/ballsSim3.40153c1b5213f8b6226e.gif",
@@ -48,10 +48,10 @@
     "static/media/flutter.svg": "/static/media/flutter.644e6c5464051f00d093c3484227c0e6.svg",
     "static/media/menu.svg": "/static/media/menu.757e642668b239a3c816d379f856e31c.svg",
     "main.35b1468a.css.map": "/static/css/main.35b1468a.css.map",
-    "main.3e302af7.js.map": "/static/js/main.3e302af7.js.map"
+    "main.081b5e3c.js.map": "/static/js/main.081b5e3c.js.map"
   },
   "entrypoints": [
     "static/css/main.35b1468a.css",
-    "static/js/main.3e302af7.js"
+    "static/js/main.081b5e3c.js"
   ]
 }
