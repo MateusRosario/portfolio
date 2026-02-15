@@ -9,18 +9,18 @@
 
         
         "title": "Meu Portfólio.",
-        "profile": "Desenvolvedor Full Stack & Bacharel em Ciência da Computação",
+        "profile": "Full Stack Developer | Go Backend | Infrastructure & DevOps",
         
         "about-name-l": "Nome",
         "about-name": "Mateus da Silva Rosario",
         "about-age-l": "Idade",
-        "about-age": "23",
+        "about-age": "26",
         "about-degree-l": "Graduação",
         "about-degree": "Bacharel em Ciência da Computação",
         "about-uni-l": "Universidade",
         "about-uni": "Universidade Federal do Tocantins",
         "about-action-download": "Curriculum Vitae",
-        "about-me": "Sou Cientista da Computação, com 4 anos de experiência em desenvolvimento FullStack. Capaz de atuar com excelência em desenvolvimento Web e Mobile, tanto com front-end quanto com Back-end.\n\n\tPossuo perfil de liderança e companheirismo, além de ser muito organizado e comunicativo. Isso me permite me encaixar bem em diversos projetos e contribuir grandemente para as discussões.\n\n\t No meu último cargo realizei o desenvolvimento de um sistema para elaboração e atualização de Projetos Pedagógicos de Curso e isto trouxe para a Universidade Federal do Tocantins um ambiente centralizado para a evolução rápida do seu ensino, um sistema inovador e pioneiro que substitui a elaboração manual e analógica anteriormente performada na instituição.\n\n\tTenho conhecimentos em Angular, JavaScript, TypeScript, Python, Django, RESTful API, Flutter, React, Firebase, MySQL e certificações para desenvolvimento com serviços IBM Cloud e para iOS com Swift e SwiftUI.\n",
+        "about-me": "Sou Desenvolvedor Full Stack com mais de 5 anos de experiência em engenharia de software, atuando em backend (Go, NestJS, Spring Boot), frontend (Angular, React, Next.js), infraestrutura (Docker, Linux, Nginx) e arquitetura de microsserviços.\n\nPossuo um perfil de liderança técnica e iniciativa. Identifico problemas, proponho soluções e conduzo até a entrega. Liderei a migração completa de infraestrutura legada para containers Docker (30+ containers em produção), implementei HTTPS on-premise com proxy reverso garantindo conformidade com LGPD, e introduzi a linguagem Go na empresa com 5+ microsserviços em produção, incluindo sistema de mensageria com RabbitMQ processando 1.500 msgs/s com zero perda de dados.",
         "cv-url": "https://mateusrosario.github.io/myAutoCV/cv.pdf",
 
         "skills-text": "Aqui estão apresentadas as tecnologias e ferramentas que tenho experiência de uso ou domínio.",
@@ -49,13 +49,13 @@
         "about-name-l": "Name",
         "about-name": "Mateus da Silva Rosario",
         "about-age-l": "Age",
-        "about-age": "23",
+        "about-age": "26",
         "about-degree-l": "Degree",
         "about-degree": "Bachelor's in Computer Science",
         "about-uni-l": "University",
         "about-uni": "Federal University of Tocantins",
         "about-action-download": "Curriculum Vitae",
-        "about-me": "I am a Computer Scientist with 4 years of experience in FullStack development. I am capable of excelling in both Web and Mobile development, handling both front-end and back-end tasks.\n\nI possess leadership and teamwork skills, along with being highly organized and communicative. This enables me to fit well into various projects and contribute significantly to discussions.\n\nIn my last position, I worked on the development of a system for creating and updating Course Pedagogical Projects. This brought the Federal University of Tocantins a centralized environment for rapid evolution of its teaching methods, an innovative and pioneering system that replaced the previous manual and analogical approach used in the institution.\n\nI have expertise in Angular, Java, JavaScript, TypeScript, Python, Django, RESTful API, Flutter, React, Firebase, PostgreSQL, and certifications for development for iOS with Swift and SwiftUI.",
+        "about-me": "I am a Full Stack Developer with over 5 years of experience in software engineering, working across backend (Go, NestJS, Spring Boot), frontend (Angular, React, Next.js), infrastructure (Docker, Linux, Nginx), and microservices architecture.\n\nI have a technical leadership and initiative profile. I identify problems, propose solutions, and drive them through to delivery. I led the complete migration of legacy infrastructure to Docker containers (30+ containers in production), implemented on-premise HTTPS with reverse proxy ensuring LGPD compliance, and introduced Go language to the company with 5+ microservices in production, including a messaging system with RabbitMQ processing 1,500 msgs/s with zero data loss.",
         "cv-url": "https://mateusrosario.github.io/myAutoCV/cv-en.pdf",
 
         "skills-text": "Here are the technologies and tools that I have experience using or domain.",
